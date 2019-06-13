@@ -1,0 +1,15 @@
+.navbar-brand, .nav-item {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar-brand {
+    font-size: 36px;
+    margin-right: 580px;
+
+}
+
+.nav-item {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
