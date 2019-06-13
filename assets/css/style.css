@@ -1,15 +1,20 @@
-.navbar-brand, .nav-item {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
+    body {
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        background-image: url(../images/pexels-photo-1020320.jpeg); 
+    }
 
-.navbar-brand {
-    font-size: 36px;
-    margin-right: 580px;
+    .navbar-brand, .nav-item {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
 
-}
+    .navbar-brand {
+        font-size: 36px;
+        margin-right: 180px;
+        margin-left: calc((100% - 960px)/2);
+        margin-right: 180px;
+    }
 
-.nav-item {
-    font-size: 18px;
-    margin-right: 10px;
-}
-
+    .nav-link {
+        font-size: 24px;
+        text-decoration: underline;
+    }
