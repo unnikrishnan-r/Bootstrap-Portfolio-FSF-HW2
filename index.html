@@ -16,7 +16,9 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <!--Linking stylesheet for Common overrides - Footer, Icons etc-->
-    <link rel="stylesheet" href="./assets/css/commonstyles.css" <!-- Custom Style Sheet to Override certain styles if
+    <link rel="stylesheet" href="./assets/css/commonstyles.css" 
+    
+    <!-- Custom Style Sheet to Override certain styles if
         screen is atleast 1024px-->
     <link rel="stylesheet" media="screen and (min-width:1024px)" href="./assets/css/style.css">
 
@@ -24,6 +26,14 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('[data-toggle="tooltip"]').tooltip({
+                placement : 'top'
+            });
+        });
+        </script>
 
 </head>
 
@@ -136,7 +146,7 @@
                 <div class="col-lg-12">
                     <a class="icon-link" href="https://www.linkedin.com/in/unnikrishnan-ramachandran/" target="_blank">
                         <span class="icon">
-                            <i class="fab fa-linkedin-in"></i>
+                            <i class="fab fa-linkedin-in" data-toggle="tooltip" data-original-title="Linkedin"></i>
 
                         </span>
                     </a>
@@ -144,12 +154,12 @@
                     <a class="icon-link" href="mailto:unnipbvr@gmail.com" target="_blank" target="_top">
 
                         <span class="icon">
-                            <i class="fas fa-envelope"></i>
+                            <i class="fas fa-envelope" data-toggle="tooltip" data-original-title="Email me"></i>
                         </span>
                     </a>
                     <a class="icon-link" href="https://github.com/unnikrishnan-r" target="_blank">
                         <span class="icon">
-                            <i class="fab fa-github"></i>
+                            <i class="fab fa-github" data-toggle="tooltip" data-original-title="Github"></i>
                         </span>
                     </a>
 

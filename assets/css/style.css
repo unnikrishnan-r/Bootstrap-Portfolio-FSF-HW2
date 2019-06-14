@@ -37,13 +37,14 @@
         margin-left: 30px;
     }
     
-        /*Image set to 4:3 ratio*/
+    img {
+        width: 300px;
+        height: 225px;
+    }
     
-        /* img {
-            width: 300px;
-            height: 225px;
-        } */
-    
-    
+    .projectname {
+        width: 300px;
+    }
+
     
 
