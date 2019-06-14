@@ -7,11 +7,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>About Me!!</title>
 
+    <!-- Linking fontawesome stylesheet for icons-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
     <!--Linking the Bootstrap Style Sheet-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <!-- Custom Style Sheet to Override certain styles if screen is atleast 1024px-->
+    <!--Linking stylesheet for Common overrides - Footer, Icons etc-->
+    <link rel="stylesheet" href="./assets/css/commonstyles.css" <!-- Custom Style Sheet to Override certain styles if
+        screen is atleast 1024px-->
     <link rel="stylesheet" media="screen and (min-width:1024px)" href="./assets/css/style.css">
 
     <!--Linking JS scripts for some Bootstrap functions like Toggler to Work-->
@@ -30,7 +36,7 @@
     navbar-dark , bg-primary: For Colors
     p-3: sets some padding on all sides
 -->
-    <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-primary mb-2">
         <!--navbar-brand: For Anchor text-->
         <span class="navbar-brand">
             Unnikrishnan Ramachandran
@@ -58,26 +64,30 @@
         </div>
     </nav>
 
-    <!--Beginning of Container-->
+    <!-- Beginning of Container - divided to Secton Heading, Profile Content and Footer-->
     <div class="container">
-        <div class="row">
-            <div class="col col-md-lg-12">
-                <div class="section-heading">
+
+        <!-- Section heading using grid layout-->
+        <div class="section-heading">
+            <div class="row">
+                <div class="col col-md-lg-12">
                     <h2> About Me</h2>
                 </div>
             </div>
         </div>
 
+        <!-- Profile Content begins here-->
         <div class="profile-content">
 
+            <!-- This row has 2 columns, 1 for the profile picture and the 2nd for the desc-->
             <div class="row">
                 <div class="col-lg-3">
-                    <img class="profile-pic" src="./assets/images/Unni_Passport_Picture.jpg" alt="Profile Picture">
+                    <img class="img-fluid profile-pic" src="./assets/images/Unni_Passport_Picture.jpg"
+                        alt="Profile Pic">
                 </div>
 
                 <div class="col-lg-9">
                     <p class="profile-desc">
-                        <br>
                         Computers always fascinated me as a kid, and after having spent more than a decade in the world
                         of
                         custom softwares I still feel like a boy standing at the seashore picking pebbles. That speaks
@@ -91,6 +101,7 @@
                 </div>
             </div>
 
+            <!-- This row contains rest of the description-->
             <div class="row">
                 <div class="col-lg-12">
                     <p class="profile-desc">
@@ -119,7 +130,44 @@
 
                 </div>
             </div>
+
+            <!-- This row houses the icons to linkedin, email, github profiles-->
+            <div class="row">
+                <div class="col-lg-12">
+                    <a class="icon-link" href="https://www.linkedin.com/in/unnikrishnan-ramachandran/" target="_blank">
+                        <span class="icon">
+                            <i class="fab fa-linkedin-in"></i>
+
+                        </span>
+                    </a>
+
+                    <a class="icon-link" href="mailto:unnipbvr@gmail.com" target="_blank" target="_top">
+
+                        <span class="icon">
+                            <i class="fas fa-envelope"></i>
+                        </span>
+                    </a>
+                    <a class="icon-link" href="https://github.com/unnikrishnan-r" target="_blank">
+                        <span class="icon">
+                            <i class="fab fa-github"></i>
+                        </span>
+                    </a>
+
+                </div>
+            </div>
         </div>
+        <div class="push"> </div>
+    </div>
+
+    <!-- Footer begins here-->
+    <div class="footer">
+        <div class="row">
+            <div class="col-lg-12">
+                <span> Copyright</span>
+            </div>
+        </div>
+
+    </div>
 
 </body>
 
