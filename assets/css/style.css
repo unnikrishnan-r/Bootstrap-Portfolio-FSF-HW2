@@ -1,50 +1,57 @@
-
 /* Nav bar customizations for 1024px screens or more*/
-    .navbar-brand {
-        font-size: 36px;
-        margin-right: 180px;
-        margin-left: calc((100% - 960px)/2);
-        margin-right: 200px;
-    }
 
-    .nav-link {
-        font-size: 24px;
-    }
+/* Starting content of navbar by leaving margins on either side */
+.navbar-brand {
+    font-size: 36px;
+    margin-right: 180px;
+    margin-left: calc((100% - 960px)/2);
+    margin-right: 200px;
+}
 
-    .container {
-        clear: both;
-        overflow: auto;
-        width: 960px;
-        margin-left: calc((100% - 960px)/2);
-        margin-right: calc((100% - 960px)/2);
-    }
+/* Setting font size */
+.nav-link {
+    font-size: 24px;
+}
 
-    .profile-content, .form-content, .project-all {
-        height: 520px;
-        margin-left: 30px;
-        margin-right: 30px;
-    }
-    
-    
-    .profile-desc {
-        font-size: 15px;
-        line-height: 30px;
-    }
-    
-    
-    /*Icons for Linkedin, Email, Github*/
-    .icon {
-        margin-left: 30px;
-    }
-    
-    img {
-        width: 300px;
-        height: 225px;
-    }
-    
-    .projectname {
-        width: 300px;
-    }
+/* Container width and side margins */
+.container {
+    clear:both;
+    overflow: auto;
+    width: 960px;
+    margin-left: calc((100% - 960px)/2);
+    margin-right: calc((100% - 960px)/2);
+}
 
-    
+.profile-content, .form-content , .project-all{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+/* Profile picture and descriptions overrides*/
+.profile-pic {
+    width: 200px;
+    height: 200px;
+}
+.profile-desc {
+    font-size: 15px;
+    line-height: 30px;
+}
+
+
+/*Icons for Linkedin, Email, Github*/
+.icon {
+    margin-left: 30px;
+}
+
+img {
+    width: 300px;
+    height: 225px;
+}
+
+.projectname {
+    width: 300px;
+}
+
+
 
