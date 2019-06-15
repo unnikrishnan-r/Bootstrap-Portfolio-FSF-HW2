@@ -51,7 +51,7 @@ body {
     text-decoration: none !important;
 }
 
-/*Image set to 4:3 ratio*/
+/*Image set to 4:3 ratio, smaller image for small screens*/
 img {
     width: 160px;
     height: 120px;
@@ -64,20 +64,14 @@ img {
     color: white;
     padding: 10px;
     position: absolute;
-    top: 75%;
+    top: 55%;
 }
 
-/*Styling of footer*/
-
-/* .push {
-    height: 50px;
-}
-
-.footer {
+.sticky-footer{
     background-color: #666666;
     padding: 10px;
     text-align: center;
     color: white;
     border-top: 8px solid #4aaaa5;
-    height: 50px;
-} */
+    height: 20px;
+}

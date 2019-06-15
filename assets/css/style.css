@@ -22,11 +22,18 @@
     margin-right: calc((100% - 960px)/2);
 }
 
-.profile-content, .form-content , .project-all{
+.profile-content, .form-content {
     margin-left: 30px;
     margin-right: 30px;
+    height: 520px;
 }
 
+
+.project-all{
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 700px;  
+}
 
 /* Profile picture and descriptions overrides*/
 .profile-pic {
@@ -51,6 +58,9 @@ img {
 
 .projectname {
     width: 300px;
+    position: absolute;
+    top: 75%;
+
 }
 
 
