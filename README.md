@@ -24,6 +24,7 @@ Note: JS is loaded to the page purely for 2 purposes
 3. Sticky Footer
 4. Use of tooltip (on icons instead of buttons)
 5. Form groups
-6. Responsive Images (pending implementation)
+6. Responsive Images
+7. Flex
 
 
